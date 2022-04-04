@@ -1,6 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React, {useContext} from 'react';
 import AppContext from "../AppContext";
+import {faSpinner} from '@fortawesome/free-solid-svg-icons'
 
 export default function Loading () {
     const value = useContext(AppContext);
